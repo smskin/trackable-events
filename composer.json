@@ -1,0 +1,34 @@
+{
+  "name": "smskin/trackable-events",
+  "description": "Trackable events for the control dispatching process",
+  "keywords": [
+    "laravel",
+    "events"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergey Mikhaylov",
+      "email": "serg@msoinvest.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2.5|^8.0",
+    "laravel/framework": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SMSkin\\TrackableEvents\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "SMSkin\\TrackableEvents\\ServiceProvider"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
